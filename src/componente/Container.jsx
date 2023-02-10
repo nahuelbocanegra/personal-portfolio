@@ -12,7 +12,7 @@ export default function Container() {
    const [contact,setContact]=useState(false)
 
   return (
-    <div className='container'>
+    <div className='containerTodo'>
       <ul className='list-nav'>
         <li onClick={()=>{setAbauMe(!abautMe)}}> About Me</li>
         <li onClick={()=>{setProject(!project)}}> Project</li>
