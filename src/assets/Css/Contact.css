@@ -1,0 +1,125 @@
+.contact-gmail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:10px;
+  }
+  .contact{
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 10px;
+  margin-bottom: 5rem;
+  }
+  .formulario{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    height: 420px;
+    border-radius: 10px;
+  }
+  .inp{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid #ffffff;
+    padding: 10px 2px;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border-radius: 5px;
+  }
+  .inp::placeholder{
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .int:focus{
+    background-color: transparent;
+  }
+  
+  textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+     font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+  }
+  .button-submit{
+    color: #ffffff;
+    background-color: transparent;
+    border:3px solid #ffffff;
+  
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  .button-submit:hover{
+    background: linear-gradient(90deg, rgba(209,8,194,0.6418942577030813) 0%, rgba(254,255,0,0.6166841736694677) 100%);
+    border: 0;
+  }
+  .Text-contact-cont{
+    padding: 0 10px;
+  height: 175px;
+  width: 100%;
+  }
+  .text-contact-uno{
+    padding:  5px;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   color:rgb(209, 22, 137) ;
+   font-family: 'Montserrat', sans-serif;
+  }
+  .text-contact-dos{
+    font-size: 2rem;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+  }
+  
+  @media screen and (min-width:900px) {
+    .contact-gmail{
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+    }
+    #Contact{
+      margin-bottom: 5rem;
+    }
+    .formulario{
+      border: 3px solid #ffffff;
+      justify-content: space-evenly;
+      padding: 15px;
+      width: 550px;
+      height: 500px;
+    }
+    .inp::placeholder{
+      
+      font-size: 1.5rem;
+    }
+    .Text-contact-cont{
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .text-contact-dos{
+      font-size: 4rem;
+    }
+     
+  }
+  
