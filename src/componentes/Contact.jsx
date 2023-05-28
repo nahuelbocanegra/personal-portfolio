@@ -20,7 +20,7 @@ useEffect(()=>{
     
     <section className="section" id="Contact">
       <div className="contact-gmail" >
-        <div className="Text-contact-cont " data-aos="fade-right">
+        <div className="Text-contact-cont " data-aos="fade-up">
         <h4 className="text-contact-uno dy">Get in touch</h4>
           <h2 className="text-contact-dos dy">
              Let´s in work     <br />  together
@@ -28,7 +28,7 @@ useEffect(()=>{
           
         </div>
         <div className="contact" >
-           <form  className="formulario" data-aos="fade-left" onSubmit={handleSubmit(submit)}>
+           <form  className="formulario"  data-aos="fade-up" onSubmit={handleSubmit(submit)}>
             <input className="inp" type="text" id="name-input"  placeholder="Your name" {...register("name")} />
             <input  className="inp" type="mail" id="asunto-input"  placeholder="Your email" {...register("asunto")} />
             <textarea

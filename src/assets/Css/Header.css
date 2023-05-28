@@ -46,11 +46,11 @@
 }
 @media (min-width:700px){
     .btn-header{
-        width:150px;
+        width:130px;
         height: 50px;
     }
     .item-header{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
     .item-header:hover{
         scale: 1.1;
