@@ -13,8 +13,7 @@ export default function Main() {
         <article className='article-inf'>
           <div data-aos="fade-right" className="content-AbautMe-main"data-aos-duration="1500">
             <div className='cont-text-main'>
-            <p className="Abaut-me">Hola soy :</p>
-            <p className="title-abaut"><TypeAnimation sequence={[
+            <p className="Abaut-me">Hola soy : <br /><TypeAnimation className="title-abaut" sequence={[
               'Front-End Developer',
               2000,
               'Back-End Developer',
@@ -22,14 +21,10 @@ export default function Main() {
               'Full-Stack Developer',
               2000,
               
-            ]}
-            speed={70} 
+            ]}  
             repeat={Infinity}
             /></p>
-
-
-            </div>
-            
+            </div>        
             <p className='Abaut-me-text'>Poseo excelentes habilidades en el campo de la programación,
             soy una persona que siempre está dispuesto a aprender y busca superarse a sí mismo.</p>
           </div>
