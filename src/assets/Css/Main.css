@@ -170,21 +170,21 @@
         display: flex;
         justify-content: center;
         align-items:center ;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     } 
     .img-cont>img{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
     .Abaut-me{
-        font-size: 2.5rem;
+        font-size: 1.7rem;
         align-self: center;
         text-align: left;
         line-height: 60px;
     }
     .title-abaut{
-        font-size: 3rem;
+        font-size: 2.6rem;
       
     }
     
@@ -192,13 +192,7 @@
         gap: 60px;
         
     }
-    .btn-main{
-        width: 70px;
-    height: 70px;
-   }
-    .btn-main>i{
-     font-size: 2rem;
-    }
+    
     
 }
 
