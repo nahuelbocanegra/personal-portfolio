@@ -92,41 +92,9 @@
     }
     
 }
-
-@media screen and (min-width:1300px) {
-    
-.slider{
-    height: 100px;
+@media screen and (min-width:700px) {
+.slide i{
+    font-size: 5.5rem;
 }
-
-.slide{
-    width: 130px;
-    height: 100px;  
-}
-    .slide i{
-        font-size: 3rem;
-       filter: drop-shadow(2px 2px 8px rgb(0,0,0,0.4));
-    }
-    .slide:hover .text-slide{
-        bottom: 10px;
-        
-    }
-    
-}
-
-@media screen and (min-width:1300px) {
-    
-    .slider{
-        height: 130px;
-    }
-    
-    .slide{
-        width: 130px;
-        height: 130px;  
-    }
-        .slide i{
-            font-size: 6rem;
-           filter: drop-shadow(2px 2px 8px rgb(0,0,0,0.4));
-        }
-        
+  
 }
