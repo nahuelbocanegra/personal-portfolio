@@ -64,6 +64,16 @@ export default function Project() {
         
       </SwiperSlide>
       <SwiperSlide className='BG'>
+        <a href="https://polite-bublanina-580fc7.netlify.app/" target={"_blank"}>
+
+          <img className='img' src={img.Skeleton} alt="" />
+        </a>
+         <div  className='container-project' >
+          <p>Skeleton: Desarrollado con React Js,Tailwind-Css,Css,HTML</p>
+          
+       </div>
+      </SwiperSlide>
+      <SwiperSlide className='BG'>
         <a href="https://main--astonishing-palmier-a435ed.netlify.app/" target={"_blank"}>
           <img className='img' src={img.calculadora} alt="" />
         </a>
@@ -109,7 +119,6 @@ export default function Project() {
       
     
       </SwiperSlide>
-        
         
   
        
