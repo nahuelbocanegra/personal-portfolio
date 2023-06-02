@@ -66,6 +66,9 @@
 .bxl-python:hover{
     color:green;
 }
+.bxl-tailwind-css:hover{
+    color:rgba(0, 255, 255, 0.763);
+}
 .text-slide{
     font-size: 0.8rem;
     color: #FFFFFF;

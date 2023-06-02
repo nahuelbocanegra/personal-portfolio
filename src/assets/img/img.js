@@ -5,6 +5,7 @@ import EcomerVanilla from "./ecomer-vanilla.png"
 import wheater from "./AppWeather.png"
 import random from "./random.png"
 import calculadora from "./calculadora.png"
+import Skeleton from "./Skeleton.png"
 
 export default {
     morde,
@@ -13,6 +14,7 @@ export default {
     EcomerVanilla,
     random,
     wheater,
-    calculadora
+    calculadora,
+    Skeleton
 }
 
